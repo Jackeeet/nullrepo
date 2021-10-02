@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font: 1em sans-serif;
+}
+
+a {
+    display: block;
+}
+
+a:link, a:visited {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px auto 5px auto;
+}
+
+.section {
+    padding: 5px 0;
+    border-bottom: 1px solid black;
+}
+
+.section-name, .section-content {
+    align-self: center;
+    text-align: center;
+}
+
+.section-content img, .section-content a {
+    display: block;
+    margin: 5px auto;
+}
+
+
